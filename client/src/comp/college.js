@@ -133,7 +133,7 @@ const Student=()=>{
         {
             simClg.length?
             <div>
-              <Table scroll={{ x: 1300 }} dataSource={simClg} onRow={(record, rowIndex) => {
+              <Table scroll={{ x: 600 }} dataSource={simClg} onRow={(record, rowIndex) => {
                 return {
                   onClick: event => {window.location.assign('/college/'+simClg[rowIndex].id)}
                 };
