@@ -29,7 +29,7 @@ const open=()=>{
 }
 
     return (
-        <div class='text-center' style={{padding:'1%'}}>
+        <div class='text-center fixed-top'>
             
         <div class="input-group rounded">
             <Link to='/dashboard'>
