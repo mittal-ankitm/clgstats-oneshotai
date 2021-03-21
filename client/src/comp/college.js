@@ -111,7 +111,7 @@ const Student=()=>{
     return (
         <div>
             <div>
-              <h3>College Details</h3>
+              <h1>College Details</h1>
              
         {details.name?
         <div style={{display:'flex',justifyContent:'center'}}>
