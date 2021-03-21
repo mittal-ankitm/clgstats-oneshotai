@@ -37,8 +37,8 @@ const Dashboard=()=>{
             },
             {
               title: 'Number of Students',
-              dataIndex: 'year',
-              key: 'year',
+              dataIndex: 'numberStudents',
+              key: 'num',
             },
             {
               title: 'Courses',
