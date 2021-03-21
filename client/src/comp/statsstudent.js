@@ -85,7 +85,7 @@ const StatsStudents=()=>{
  {
             details.length?
             <div>
-                <Table scroll={{ x: 1300 }} dataSource={details} onRow={(record, rowIndex) => {
+                <Table scroll={{ x: 700 }} dataSource={details} onRow={(record, rowIndex) => {
                 return {
                   onClick: event => {history.push('/students/'+details[rowIndex].id)}
                 };

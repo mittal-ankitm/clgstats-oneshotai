@@ -198,7 +198,7 @@ const Dashboard=()=>{
             <h1>College List</h1>
 {
             details.length?
-            <div  style={{maxWidth:'100%',fontSize:'auto'}}><Table scroll={{ x: 1300 }} dataSource={details} onRow={(record, rowIndex) => {
+            <div><Table scroll={{ x: 700 }} dataSource={details} onRow={(record, rowIndex) => {
                 return {
                   onClick: event => {history.push('/college/'+details[rowIndex].id)}
                 };

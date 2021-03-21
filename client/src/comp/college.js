@@ -133,7 +133,7 @@ const Student=()=>{
         {
             simClg.length?
             <div>
-              <Table scroll={{ x: 600 }} dataSource={simClg} onRow={(record, rowIndex) => {
+              <Table scroll={{ x: 700 }} dataSource={simClg} onRow={(record, rowIndex) => {
                 return {
                   onClick: event => {window.location.assign('/college/'+simClg[rowIndex].id)}
                 };
@@ -146,7 +146,7 @@ const Student=()=>{
         {
             studetails.length?
             <div>
-                <Table scroll={{ x: 1300 }} dataSource={studetails} onRow={(record, rowIndex) => {
+                <Table scroll={{ x: 700 }} dataSource={studetails} onRow={(record, rowIndex) => {
                 return {
                   onClick: event => {history.push('/students/'+studetails[rowIndex].id);}
                 };
