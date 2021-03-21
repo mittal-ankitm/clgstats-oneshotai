@@ -36,9 +36,9 @@ const Student=()=>{
                  <div style={{display:'flex',justifyContent:'center'}}>
                  <table className='table table-hover tb'>
                      <Link to={`/college/${details.collegeid.id}`}>
-          <tr>     <td>  College Name</td><td>{details.collegeid.name}</td></tr>
-          <tr>    <td>   College ID</td><td>{details.collegeid.id}</td></tr>
-             <tr>  <td>   College Address </td><td> {details.collegeid.city},{details.collegeid.state},{details.collegeid.country}</td></tr>
+          <tr>     <td style={{color:'black'}}>  College Name</td><td>{details.collegeid.name}</td></tr>
+          <tr>    <td style={{color:'black'}}>  College ID</td><td>{details.collegeid.id}</td></tr>
+             <tr>  <td style={{color:'black'}}>   College Address </td><td> {details.collegeid.city},{details.collegeid.state},{details.collegeid.country}</td></tr>
              </Link>
                       </table></div>:<Loading />
                 }
